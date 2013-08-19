@@ -1,3 +1,5 @@
+cmatrix 1.2a 0x0ff.info edit - 02/05/2013
+- Logfile supervision added. Option -L 
 cmatrix 1.2a - 03/31/2002
 - Eliminated MAXLINES and MAXCOLS variables, now uses malloc()
   to allocate the necessary memory for the lines and cols.  Vars 
