@@ -15,3 +15,8 @@ lbf5_backender.pl
 -----------------
   Petit programme permettant d'identifier les backends derrière un Load Balancer F5 !
   La découverte de l'adresse IP/Port des backends se fait grâce à un cookie spécifique.
+
+lsb_reverse.pl
+-----------------
+  Petit programme permettant d'extraire un message planqué dans le Least Significant Bit !
+  /!\ A modifier selon l'ordre des bits cachés : Les bits extraits successivement peuvent être interpreté de plusieurs façons (exemple : 1000 0000 ou 0000 0001)...
