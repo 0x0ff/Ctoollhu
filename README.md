@@ -10,8 +10,8 @@ SNMPunK
   - Brute-Forcer le chiffrement avec la liste précédemment générée.
   
   Visitez les deux liens ci-dessous pour comprendre comment utiliser cet outils :
-  http://www.0x0ff.info/2013/snmpv3-authentification/
-  http://www.0x0ff.info/2013/snmpv3-des-cryptool/
+  - http://www.0x0ff.info/2013/snmpv3-authentification/
+  - http://www.0x0ff.info/2013/snmpv3-des-cryptool/
 
 
 cmatrix-1.2a-0x0ff.info-edit
