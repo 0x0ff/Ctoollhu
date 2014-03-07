@@ -5,9 +5,9 @@ Ctoollhu - Some tools by 0x0ff.info
 SNMPunK
 ----------------------------
   Cet outil permet trois choses :
-     - Générer un liste de clés en fonction de l'engineID renseignée et de la fonction de hashage choisie,
-     - Brute-Forcer l'authentification avec la liste précédemment générée,
-     - Brute-Forcer le chiffrement avec la liste précédemment générée.
+  - Générer un liste de clés en fonction de l'engineID renseignée et de la fonction de hashage choisie,
+  - Brute-Forcer l'authentification avec la liste précédemment générée,
+  - Brute-Forcer le chiffrement avec la liste précédemment générée.
   
   Visitez les deux liens ci-dessous pour comprendre comment utiliser cet outils :
   http://www.0x0ff.info/2013/snmpv3-authentification/
