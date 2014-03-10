@@ -18,7 +18,8 @@ cmatrix-1.2a-0x0ff.info-edit
 ----------------------------
   cmatrix est le célèbre programme de Chris Allegretta.
   Ajout d'une nouvelle fonctionnalité : la gestion d’un fichier de log. Lorsque le fichier est modifié, les brins deviennent rouge...
-
+**Visitez le lien ci-dessous pour plus d'infos :**
+  - http://www.0x0ff.info/2013/0x-cmatrix/
 
 lbf5_backender.pl
 -----------------
