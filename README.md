@@ -25,6 +25,8 @@ lbf5_backender.pl
 -----------------
   Petit programme permettant d'identifier les backends derrière un Load Balancer F5.
   La découverte de l'adresse IP/Port des backends se fait grâce à un cookie spécifique.
+**Visitez le lien ci-dessous pour plus d'infos :**
+  - http://www.0x0ff.info/2013/load-balancer-f5-tiny-disclosure/
 
 lsb_reverse.pl
 -----------------
