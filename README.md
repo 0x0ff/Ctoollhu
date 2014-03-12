@@ -32,3 +32,7 @@ lsb_reverse.pl
 -----------------
   Petit programme permettant d'extraire un message planqué dans le Least Significant Bit d'une image au format .bmp.
   /!\ A modifier selon l'ordre des bits cachés : Les bits extraits successivement peuvent être interpretés de plusieurs façons (exemple : 1000 0000 ou 0000 0001)...
+  
+nyan-cat
+-----------------
+  La commande cat mais version nyan... :)
