@@ -2,6 +2,10 @@
 Ctoollhu - Some tools by 0x0ff.info
 ===================================
 
+0x0ff.info
+----------------------------
+**Ce dossier contients les exemples présentés dans les différents articles du blog 0x0ff.info :**
+  - http://www.0x0ff.info/2014/prng-et-generateur-de-cle/
 SNMPunK
 ----------------------------
 **Cet outil permet trois choses :**
