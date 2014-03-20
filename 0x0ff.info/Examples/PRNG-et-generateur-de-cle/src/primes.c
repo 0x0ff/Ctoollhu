@@ -10,7 +10,7 @@
 
 /**** FERMAT Function *********
 IN : A very long number N (mpz_t)
-OUT : BOOL, 0 = False, 1 = True
+OUT : BOOL, 1 = False, 0 = True
 
 DESC :
 	while i < PRECISION :
