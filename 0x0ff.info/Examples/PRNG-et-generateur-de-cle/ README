@@ -1,0 +1,62 @@
+######## INTRO ##########
+Ce programme est un exemple de génération de code.
+Il se déroule en 3 étapes grâce à 3 binaires :
+ 1 - init : génération d'un fichier gen.h contenant les variables chiffrées X, e et m
+ 2 - generator : génère des code de validation grace au PRBG-RSA en utilisant les variables
+     X : comme aléa de départ
+     e : comme exposant secret
+     m : comme modulo pour les calculs
+ 3 - validate : vérifie les codes de validation en utilisant le même algo avec les même variables
+
+Le code source est en mode "draft", je n'ai pas eu le temps de faire le ménage.
+Le générateur ./init est un peu long, soyez patient...
+Beaucoup de vérification de condition manque et il est possible que vous vous retrouviez avec des erreurs.
+N'hésitez pas à l'améliorer ;)
+
+
+#### PRE-REQUIS ####
+libssl et libgmp doivent être installé
+	#>apt-get install libssl-dev libgmp-dev
+
+#### Installation ###
+1 - INITIALISATION
+Lancez la commande suivante :
+ #>make init
+ #>./init
+
+Vous devriez voir un fichier gen.h :
+ #>cat gen.h
+
+2 - GENERATION
+Lancez la commande suivante :
+ #>make gen
+
+3 - TOUT EFFACER
+ #> make clean_all
+
+#### UTILISATION #####
+1 - ./generator
+2 - ./validator YOUR-CODE-HERE
+
+##### DESCRIPTION DES BINAIRES #####
+----INIT
+init.h 	____init.c
+				|___crypt.h ___crypt.c
+				|___obfuscation.c
+
+primes.c
+
+----GENERATOR
+init.h 	____crypt.h  ___crypt.c
+				|___obfuscation.c
+				|___generator.c
+				|___prng.c
+				|___traductor.c
+
+----VALIDATOR
+init.h 	____crypt.h  ___crypt.c
+				|___obfuscation.c
+				|___validate.c
+				|___prng.c
+				|___traductor.c
+
