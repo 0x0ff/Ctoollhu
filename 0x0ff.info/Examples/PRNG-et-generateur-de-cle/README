@@ -15,7 +15,7 @@ N'hésitez pas à l'améliorer ;)
 
 
 #### PRE-REQUIS ####
-libssl et libgmp doivent être installé
+Les librairies libssl et libgmp doivent être installées
 	#>apt-get install libssl-dev libgmp-dev
 
 #### Installation ###
