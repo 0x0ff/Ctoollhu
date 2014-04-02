@@ -67,7 +67,7 @@ int main(int argc, char *argv[]){
 	}
 	else{
 		/*** No encoding...another encoding could be used ***/
-		strcpy(code,to_valid);
+		strncpy(code,to_valid,MAX);
 	}
 	/*** Gen Alea **/
 	memset(to_valid,0,MAX);
