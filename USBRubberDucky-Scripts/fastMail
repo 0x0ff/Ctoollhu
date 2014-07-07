@@ -1,0 +1,17 @@
+REM This script send a mail with outlook, usefull if you used to gank the unlocked Windows sessions !
+DELAY 750
+GUI m
+DELAY 300
+GUI r
+DELAY 300
+STRING "c:\Program Files (x86)\Microsoft Office\Office12\OUTLOOK.EXE" /c ipm.note /m "mon.equipe@ma.boite.com&
+subject=Je%20vous%20offre%20les%20croissants&body=Je%20suis%20quand%20meme%20hyper%20sympa%20non%20?%20:)"
+ENTER
+DELAY 500
+F6
+DELAY 500
+STRING F
+DELAY 500
+STRING Y
+DELAY 500
+GUI L
