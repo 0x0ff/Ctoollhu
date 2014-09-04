@@ -42,3 +42,12 @@ lsb_reverse.pl
 nyan-cat
 -----------------
   La commande cat mais version nyan... :)
+  
+ActiveStandbyChecker
+-----------------
+  La configuration se fait dans un fichier « ips.txt ». La syntaxe de se fichier est, une ligne par équipement, chaque ligne doit être formatée comme ceci : <constructeur> :<ip>
+  - Les IP des F5 à utiliser sont celles des vCMP
+  - Les IP des Radware à utiliser sont celles des châssis
+  - Les IP des Juniper (SRX) sont celles des membres du cluster
+  - Les IP des Fortinet à utiliser sont celles des membres du cluster 
+
