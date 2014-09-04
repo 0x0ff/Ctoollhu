@@ -10,7 +10,7 @@ class bcolors:
     FAIL = '\033[91m'
     ENDC = '\033[0m'
 
-community = 'ptf'
+community = 'public'
 file = open('ips.txt', 'r')
 for line in file:
 	constructor = line.split(":")[0]
