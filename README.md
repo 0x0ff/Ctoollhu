@@ -45,6 +45,7 @@ nyan-cat
   
 ActiveStandbyChecker
 -----------------
+  Pour utiliser ce script il faut que l’IP de la machine sur laquelle vous le lancez soit autorisée à faire des requêtes SNMP vers les équipements. Vous n’avez normalement à toucher au script que pour changer la communauté.
   La configuration se fait dans un fichier « ips.txt ». La syntaxe de se fichier est, une ligne par équipement, chaque ligne doit être formatée comme ceci : <constructeur> :<ip>
   - Les IP des F5 à utiliser sont celles des vCMP
   - Les IP des Radware à utiliser sont celles des châssis
