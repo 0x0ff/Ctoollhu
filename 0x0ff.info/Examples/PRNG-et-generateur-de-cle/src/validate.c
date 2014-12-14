@@ -57,6 +57,7 @@ int main(int argc, char *argv[]){
 	memset(Ns,0,MAX);
 	/** Get the iteration variable and the code **/
 	strcpy(code,argv[1]);
+	//strncpy(code,argv[1],MAX);
 	i = interpretor(&code,&k_iter,&hkdf_iter,&to_valid,space);
 	if ( i > 0 ){ return 2;}
 	
@@ -67,7 +68,7 @@ int main(int argc, char *argv[]){
 	}
 	else{
 		/*** No encoding...another encoding could be used ***/
-		strcpy(code,to_valid);
+		//strcpy(code,to_valid);
 	}
 	/*** Gen Alea **/
 	memset(to_valid,0,MAX);
